@@ -1,0 +1,89 @@
+body {
+	background-color: #F7F9FC;
+	color:#575F7D;
+	font-family: Helvetica
+
+}
+
+h1,h2{
+	font-family: Helvetica;
+}
+font-weight: 100;
+
+}
+
+
+h1{
+	color:red;
+font-weight: 100;
+
+}
+
+h2{
+	color:rgb(100,100,100);
+font-weight: 100;
+
+}
+
+a{
+	color:red;
+	font-weight: bold;
+
+}
+
+a:hover {
+	color:orange;
+	}
+
+
+
+/*CUSTOM DESIGN WITH CLASS*/
+
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto
+}
+
+.card-white{
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding:40px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
